@@ -7,7 +7,9 @@
 ---
 
 ### 今日の格言
-![Inspirational Quote](https://inspirational-quotes-readme.vercel.app/api?theme=dark&hide_border=true)
+![Inspirational Quote](https://inspirational-quotes-readme.vercel.app/api?theme=dark&hide_border=true&cache_buster=1)
+
+---
 
 ### 📅 Contribution Calendar
 
