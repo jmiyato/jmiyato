@@ -6,6 +6,9 @@
 
 ---
 
+### 今日の格言
+![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=dark&hide_border=true)
+
 ### 📅 Contribution Calendar
 
 <p align="center">
