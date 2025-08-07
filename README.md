@@ -7,7 +7,7 @@
 ---
 
 ### 今日の格言
-![Quote](https://github-readme-quotes.herokuapp.com/quote?theme=dark&hide_border=true)
+![Inspirational Quote](https://inspirational-quotes-readme.vercel.app/api?theme=dark&hide_border=true)
 
 ### 📅 Contribution Calendar
 
