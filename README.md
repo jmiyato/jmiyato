@@ -1,9 +1,5 @@
 # 🀄 jmiyato's Profile 🀄
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jmiyato/jmiyato/main/header.png" alt="Mahjong Table Header">
-</p>
-
 ---
 
 ### 🚀 Recent Activity
