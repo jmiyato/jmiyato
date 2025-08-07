@@ -1,0 +1,37 @@
+name: Generate Mahjong Hand
+
+on:
+  # 毎日午前0時 (UTC) に実行
+  schedule:
+    - cron: '0 0 * * *'
+  # 手動でも実行できるようにする
+  workflow_dispatch:
+  # mainブランチにプッシュされたときにも実行
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install Pillow
+
+      - name: Run script to generate mahjong hand image
+        run: python ./generate_mahjong_hand.py
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'docs: auto-generate mahjong hand'
+          file_pattern: mahjong_hand.png
