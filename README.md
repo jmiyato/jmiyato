@@ -6,11 +6,6 @@
 
 ---
 
-### 今日の格言
-![Inspirational Quote](https://inspirational-quotes-readme.vercel.app/api?theme=dark&hide_border=true)
-
----
-
 ### 📅 Contribution Calendar
 
 <p align="center">
